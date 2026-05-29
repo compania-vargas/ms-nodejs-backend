@@ -137,3 +137,32 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- Entornos Virtuales y Dependencias ---
+node_modules/
+bin/
+obj/
+env/
+venv/
+.venv/
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Configuraciones de Editores e IDEs ---
+.vscode/
+.idea/
+*.suo
+*.user
+
+# --- Logs y Temporales ---
+*.log
+temp/
+dist/
+build/
+
+# --- Secretos y Variables de Entorno (¡IMPORTANTE!) ---
+.env
+*.pem
+*.key
